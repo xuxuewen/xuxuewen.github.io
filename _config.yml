@@ -1,0 +1,15 @@
+title: 许学文的博客
+description: 这是我的个人博客,使用GitHub Pages搭建。
+theme: minima
+baseurl: "" # 这里填写您的仓库名称，例如 "/xuxuewen.github.io"
+url: "https://xuxuewen.github.io" # 这里填写您的GitHub Pages URL
+
+# 站点导航
+header_pages:
+  - index.md
+  - about.md
+
+# 博客作者信息
+author:
+  name: 许学文
+  email: your-email@example.com

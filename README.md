@@ -7,13 +7,13 @@
 - 简洁的设计
 - 响应式布局
 - Markdown支持
+- 使用Jekyll主题
 
 ## 目录结构
-- `index.html`: 主页
-- `css/`: 样式文件
-- `js/`: JavaScript文件
+- `index.md`: 主页
+- `_config.yml`: 配置文件
 - `_posts/`: 博客文章
-- `about.html`: 关于页面
+- `about.md`: 关于页面
 
 ## 如何使用
 1. 克隆此仓库
