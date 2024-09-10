@@ -41,3 +41,31 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.post-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: calc(33% - 2rem);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h2 {
+    margin-top: 0;
+}
+
+.post-card a {
+    color: #333;
+    text-decoration: none;
+}
+
+.post-card a:hover {
+    text-decoration: underline;
+}
