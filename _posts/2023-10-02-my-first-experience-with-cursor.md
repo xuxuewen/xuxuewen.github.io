@@ -29,6 +29,65 @@ categories: jekyll update
 
 ![Cursor Screenshot](https://github.com/xuxuewen/xuxuewen.github.io/raw/main/images/cursor-screenshot.png)
 
+## 使用 Vue 3 开发组件的示例代码
+
+在这里，我将展示一个简单的 Vue 3 组件示例代码：
+
+{% highlight html %}
+<!-- App.vue -->
+<template>
+  <div id="app">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
+</template>
+
+<script>
+import HelloWorld from './components/HelloWorld.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HelloWorld
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
+{% endhighlight %}
+
+{% highlight html %}
+<!-- components/HelloWorld.vue -->
+<template>
+  <div class="hello">
+    <h1>{{ msg }}</h1>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  }
+}
+</script>
+
+<style scoped>
+h1 {
+  font-weight: normal;
+}
+</style>
+{% endhighlight %}
+
 ## 总结
 
 总的来说，我对Cursor的使用体验非常满意。它不仅提高了我的开发效率，还让我在开发过程中感到非常愉快。我强烈推荐给所有开发者尝试使用Cursor。
